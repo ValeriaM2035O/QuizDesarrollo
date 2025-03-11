@@ -85,6 +85,7 @@ fun main() {
 
 
                 if (producto != null) {
+                    println("Información del Producto ")
                     producto.mostrarInformacion()
                 } else {
                     println("Producto no encontrado.")
